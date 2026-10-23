@@ -1,0 +1,5 @@
+﻿asset,path,use
+Daily dashboard,days/ml_day14_dashboard.xlsx,"KPI, trend, anomaly, segmentation, retention, actions"
+End-to-end chart,days/ml_day23_end_to_end_summary.png,Presentation summary image
+Model confusion matrix,days/ml_day18_best_model_confusion_matrix.png,Model error discussion
+Spark physical plan,days/ml_day20_spark_physical_plan.txt,Shuffle and execution explanation

@@ -1,0 +1,6 @@
+﻿table,grain,key_fields,source,business_use
+behavior_fact,one user-content rating event,"user_id, content_id, event_ts",dataset/ml-25m/ratings.csv,user activity and daily metrics
+content_dim,one movie,content_id,dataset/ml-25m/movies.csv,content title and genre analysis
+user_dim,one user,user_id,derived from behavior_fact,user frequency and segmentation
+date_dim,one calendar date,date_day,derived from event date range,complete date spine and trend analysis
+week2_daily_metrics,one date,date_day,SQL aggregate,"DAU, volume, new-user proxy, content activity"

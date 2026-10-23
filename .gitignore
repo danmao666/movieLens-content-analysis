@@ -1,0 +1,19 @@
+# Python local files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE files
+.idea/
+.vscode/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local datasets, databases, generated outputs, and model files
+dataset/
+days/
+models/
+*.duckdb
+*.db

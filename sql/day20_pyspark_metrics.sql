@@ -1,0 +1,7 @@
+-- Day 20 uses PySpark DataFrame APIs rather than DuckDB SQL.
+-- Equivalent business operations:
+--
+-- 1. groupBy(event_date).agg(countDistinct(userId), count(userId))
+-- 2. join ratings to movies on movieId
+-- 3. row_number over partitionBy(event_date) orderBy(active_users desc)
+-- 4. inspect the physical plan and partition count to identify shuffle work.
