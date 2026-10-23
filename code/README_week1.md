@@ -16,18 +16,17 @@ These scripts are intentionally based on the actual MovieLens 25M data, not the 
 
 ## Paths
 
-- Dataset: `C:\Users\17860\Desktop\date analysis\dataset\ml-25m`
-- Code: `C:\Users\17860\Desktop\date analysis\code`
-- SQL: `C:\Users\17860\Desktop\date analysis\sql`
-- Outputs: `C:\Users\17860\Desktop\date analysis\days`
-- Database: `C:\Users\17860\Desktop\date analysis\content_platform.duckdb`
+- Dataset: `dataset/ml-25m` (download separately; it is not included in this repository)
+- Code: `code`
+- SQL: `sql`
+- Outputs: `days` (generated outputs are not included in this repository)
+- Database: `content_platform.duckdb` (generated when the scripts run)
 
 ## Run order
 
-Run these commands from the project directory in the Miniconda terminal:
+Run these commands from the repository root in the Miniconda terminal:
 
 ```powershell
-Set-Location -LiteralPath 'C:\Users\17860\Desktop\date analysis'
 python code/day01_setup.py
 python code/day02_sql_basics.py
 python code/day03_sql_advanced.py

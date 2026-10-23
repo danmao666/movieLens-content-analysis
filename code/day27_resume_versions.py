@@ -55,7 +55,7 @@ def metric_text(facts, models):
 def build_resume(target, facts, metrics):
     return f"""# {target['title']}
 
-> 姓名、电话、邮箱、城市、学历和可到岗时间请在投递前补充。以下项目数字来自本地实际运行结果，不能继续夸大。
+> 姓名、电话、邮箱、城市、学历和可到岗时间请在投递前补充。以下项目数字来自项目运行结果，不能继续夸大。
 
 ## 求职关键词
 

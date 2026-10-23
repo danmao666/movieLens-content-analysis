@@ -1,8 +1,7 @@
 -- The Python version is portable and uses the project-relative dataset path:
 --     python code/day01_setup.py
 --
--- The statements below are also runnable directly in DuckDB after replacing
--- the two CSV paths if the project is moved to another computer.
+-- The statements below use paths relative to the repository root.
 
 CREATE OR REPLACE TABLE content_dim AS
 SELECT
@@ -10,7 +9,7 @@ SELECT
     title,
     genres
 FROM read_csv_auto(
-    'C:/Users/17860/Desktop/date analysis/dataset/ml-25m/movies.csv'
+    'dataset/ml-25m/movies.csv'
 );
 
 CREATE OR REPLACE TABLE behavior_fact AS
@@ -23,7 +22,7 @@ SELECT
         to_timestamp(CAST("timestamp" AS BIGINT)) AS DATE
     ) AS event_date
 FROM read_csv_auto(
-    'C:/Users/17860/Desktop/date analysis/dataset/ml-25m/ratings.csv'
+    'dataset/ml-25m/ratings.csv'
 );
 
 CREATE OR REPLACE TABLE user_dim AS

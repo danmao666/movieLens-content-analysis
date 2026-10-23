@@ -22,11 +22,11 @@
 
 ## 使用说明
 
-1. 从 [GroupLens MovieLens](https://grouplens.org/datasets/movielens/) 下载 MovieLens 25M 数据，并解压到本地 `dataset/ml-25m/`。
+1. 从 [GroupLens MovieLens](https://grouplens.org/datasets/movielens/) 下载 MovieLens 25M 数据，并按代码说明配置数据。
 2. 按 `code/README_week1.md` 至 `code/README_week4.md` 的顺序运行分析脚本。
 3. SQL 脚本位于 `sql/`，可使用 DuckDB 执行。
 
-为控制仓库体积，原始数据、虚拟环境、模型权重和本地生成结果未上传；`.gitignore` 已排除常见本地文件。
+为控制仓库体积，原始数据、虚拟环境、模型权重和生成结果未上传；`.gitignore` 已排除常见临时文件。
 
 ## 简历项目链接
 

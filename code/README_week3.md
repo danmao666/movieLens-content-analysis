@@ -20,8 +20,7 @@ python -m pip install torch pyspark transformers
 Run one script at a time from the project directory:
 
 ```bat
-cd /d "C:\Users\17860\Desktop\date analysis"
-
+# Run the following commands from the repository root.
 python code\day15_statistics_ab_template.py
 python code\day16_logistic_baseline.py
 python code\day17_pytorch_mlp.py

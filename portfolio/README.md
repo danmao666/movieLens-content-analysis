@@ -31,7 +31,7 @@
 - 数据限制：`DATA_LIMITATIONS.md`。
 - 数据字典与资产清单：`DATA_DICTIONARY.csv`、`ASSETS.csv`。
 
-分析结果文件、原始数据和模型权重属于本地运行产物，未随 GitHub 仓库上传。
+分析结果文件、原始数据和模型权重属于生成产物，未随 GitHub 仓库上传。
 
 ## 数据限制
 

@@ -146,19 +146,14 @@ Generated on: {date.today().isoformat()}
         structure = """# Project Structure
 
 ```text
-date analysis/
-├── dataset/ml-25m/       # public raw dataset
-├── code/                  # day-by-day executable scripts
-├── sql/                   # SQL source and answer keys
-├── notebooks/             # Spark notebook wrapper
-├── days/                  # generated Excel, CSV, PNG, and reports
-├── models/                # saved baseline and PyTorch weights
-├── portfolio/             # curated presentation materials
-├── content_platform.duckdb
+movieLens-content-analysis/
+├── code/       # day-by-day executable scripts and run notes
+├── sql/        # DuckDB SQL source and analysis queries
+├── portfolio/  # project materials, data dictionary, and resume drafts
 └── README.md
 ```
 
-Run scripts from the project root in chronological order. The `days` directory contains generated artifacts; source code remains under `code` and `sql`.
+Raw data, generated reports, model weights, and the generated database are intentionally excluded; source code remains under `code/` and `sql/`.
 """
         write_portfolio_file("PROJECT_STRUCTURE.md", structure)
         write_portfolio_file(

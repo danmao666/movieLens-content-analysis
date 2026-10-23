@@ -16,8 +16,7 @@ MovieLens contains ratings and tags, not real impressions, clicks, viewing time,
 Use Anaconda Prompt or another terminal where the Miniconda `base` environment is active. Run scripts one at a time from the project directory:
 
 ```bat
-cd /d "C:\Users\17860\Desktop\date analysis"
-
+# Run the following commands from the repository root.
 python code\day08_business_questions.py
 python code\day09_schema_and_metrics.py
 python code\day10_trend_analysis.py

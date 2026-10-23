@@ -7,8 +7,7 @@ Week 4 converts the first three weeks into interview-ready and application-ready
 Run one script at a time from the project root in the existing Miniconda environment:
 
 ```bat
-cd /d "C:\Users\17860\Desktop\date analysis"
-
+# Run the following commands from the repository root.
 python code\day22_sql_timed_test.py
 python code\day23_end_to_end_analysis.py
 python code\day24_portfolio_pack.py
